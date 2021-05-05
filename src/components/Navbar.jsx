@@ -1,11 +1,12 @@
 import React from 'react';
 import { FiChevronDown } from 'react-icons/fi';
 import { HiOutlineSearch } from 'react-icons/hi';
+
 const Navbar = () => {
   const listItems = ['SCIENCE', 'CRYPTO', 'GAMES', 'CANNABIS', 'SERVICES'];
 
   return (
-    <nav className='flex justify-around items-center font-bold bg-black text-white'>
+    <nav className='flex justify-around items-center font-bold bg-black text-white mb-24'>
       <ul className='dropdown'>
         <li className='dropbtn flex items-center'>
           <a href='/'>ALL</a>
