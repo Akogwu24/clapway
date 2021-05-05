@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Open+Sans&family=Roboto:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font: 62.5% 'Roboto', sans-serif;
+}
+nav {
+  font-size: 1.8rem;
+}
+li {
+  list-style-type: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li:hover {
+  border-bottom: solid 2px white;
+  padding: 0.9rem 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dropbtn {
+  padding: 0.9rem 0;
 }
-
-.App-link {
-  color: #61dafb;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 16rem;
+}
+.dropdown-content a {
+  display: block;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: rgba(20, 20, 19, 0.767);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: blue;
 }
