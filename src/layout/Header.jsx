@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 
 const Header = () => {
   return (
-    <div>
+    <div className='mb-20'>
       <Logo />
       <Navbar />
       <Effective />

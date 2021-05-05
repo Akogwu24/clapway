@@ -7,7 +7,7 @@ const SmallCard = ({ smallImg, smallText, imgstyle }) => {
         <img src={smallImg} alt='writer' className={imgstyle} />
       </div>
       <div className='ml-10'>
-        <h4 className='text-xl font-bold'>{smallText}</h4>
+        <h4 className='text-xl font-bold hover:text-red-500'>{smallText}</h4>
       </div>
     </section>
   );

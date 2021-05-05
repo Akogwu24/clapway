@@ -19,7 +19,7 @@ const Effective = () => {
   const featuredImages = [trading, fraud, drink, lovers];
 
   return (
-    <section className='flex justify-between'>
+    <section className='flex justify-between border-b-4 pb-20 border-gray-300'>
       <Card
         className=' w-3/5 ml-10 mr-20'
         img={bulb}
@@ -28,7 +28,7 @@ const Effective = () => {
       <div>
         {images.map((image) => (
           <SmallCard
-            imgstyle='w-72'
+            imgstyle='w-72 '
             smallImg={image}
             smallText='ESSAY WRITING SERVICE PRICE AND THE FACTORS THAT INFLUENCE IT'
           />
