@@ -2,7 +2,7 @@ import React from 'react';
 
 const SmallCard = ({ smallImg, smallText, imgstyle }) => {
   return (
-    <section className='flex items-center  mb-10 mr-20'>
+    <section className='flex items-center mb-10 md:mr-20'>
       <div>
         <img src={smallImg} alt='writer' className={imgstyle} />
       </div>

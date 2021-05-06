@@ -6,8 +6,8 @@ const Navbar = () => {
   const listItems = ['SCIENCE', 'CRYPTO', 'GAMES', 'CANNABIS', 'SERVICES'];
 
   return (
-    <nav className='flex justify-around items-center font-bold bg-black text-white mb-24'>
-      <ul className='dropdown'>
+    <nav className='hidden md:flex justify-around items-center font-bold bg-black text-white mb-24'>
+      <ul className='dropdown '>
         <li className='dropbtn flex items-center'>
           <a href='/'>ALL</a>
           <FiChevronDown color='white font-bold ml-2' />

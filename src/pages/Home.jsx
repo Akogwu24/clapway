@@ -3,7 +3,7 @@ import Header from '../layout/Header';
 
 const Home = () => {
   return (
-    <div className='container px-20 mx-auto'>
+    <div className='container md:px-20 mx-auto'>
       <Header />
     </div>
   );
