@@ -7,7 +7,9 @@ const Card = ({ img, text, className }) => {
         <img src={img} alt='bulb' className='w-full' />
       </div>
       <div>
-        <h4 className='text-5xl font-bold hover:text-red-500'>{text}</h4>
+        <h4 className='text-5xl font-bold hover:text-red-500 sm:text-center'>
+          {text}
+        </h4>
       </div>
     </section>
   );
