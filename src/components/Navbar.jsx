@@ -1,12 +1,13 @@
 import React from 'react';
+
 import { FiChevronDown } from 'react-icons/fi';
 import { HiOutlineSearch } from 'react-icons/hi';
 
-const Navbar = () => {
+const Navbar = ({ navStyle }) => {
   const listItems = ['SCIENCE', 'CRYPTO', 'GAMES', 'CANNABIS', 'SERVICES'];
 
   return (
-    <nav className='hidden md:flex justify-around items-center font-bold bg-black text-white mb-24'>
+    <nav className={navStyle}>
       <ul className='dropdown '>
         <li className='dropbtn flex items-center'>
           <a href='/'>ALL</a>
@@ -46,7 +47,7 @@ const Navbar = () => {
           FFEATURED
         </a>
       </ul>
-      <HiOutlineSearch className='ml-40' />
+      <HiOutlineSearch className='ml-40 hidden md:block' />
     </nav>
   );
 };
