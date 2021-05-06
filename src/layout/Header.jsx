@@ -10,10 +10,12 @@ import { IconContext } from 'react-icons';
 const Header = () => {
   const [click, setClick] = useState(false);
   const [navDisplay, setNavDisplay] = useState('');
+
   const handleClick = () => {
     setClick(!click);
     setNavDisplay(!navDisplay);
   };
+
   return (
     <div className='mb-20'>
       <IconContext.Provider value={{ size: '3rem' }}>
@@ -33,7 +35,7 @@ const Header = () => {
       <Navbar
         navStyle={
           navDisplay
-            ? 'md:flex justify-around items-center font-bold bg-black text-white mb-24'
+            ? 'absolute z-10 h-4/5 w-1/2 md:w-full md:h-auto md:relative md:flex justify-around items-center font-bold bg-black text-white mb-24 text-center md:text-auto'
             : 'hidden'
         }
       />
