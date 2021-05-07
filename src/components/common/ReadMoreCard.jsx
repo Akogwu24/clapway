@@ -2,7 +2,7 @@ import React from 'react';
 
 const ReadMoreCard = ({ header, brief, img }) => {
   return (
-    <div className='mr-10 my-10'>
+    <div className='mr-16 my-10'>
       <div className='mb-5'>
         <h2 className='text-4xl font-bold'>{header}</h2>
       </div>
