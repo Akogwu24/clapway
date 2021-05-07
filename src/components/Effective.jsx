@@ -21,7 +21,8 @@ const Effective = () => {
   return (
     <section className='md:flex justify-between  border-b-4 pb-20 border-gray-300'>
       <Card
-        className=' container w-full md:w-3/5 md:ml-10 mx-auto mr-20 mb-12 md:mb-0'
+        textStyles='text-5xl font-bold hover:text-red-500'
+        className='container w-full md:w-3/5 md:ml-10 mx-auto mr-20 mb-12 md:mb-0'
         img={bulb}
         text='10 EFFECTIVE WAYS TO EXPAND YOUR SOCIAL MEDIA INFLUENCE'
       />

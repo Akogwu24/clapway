@@ -11,7 +11,7 @@ const ReadMoreCard = ({ header, brief, img }) => {
           <img src={img} alt='' className='w-full h-52' />
         </div>
         <div className='ml-5'>
-          <p className='text-xl text-justify '>{brief}</p>
+          <p className='text-xl text-justify whitespace-normal'>{brief}</p>
           <button
             type='button'
             className='bg-black text-white p-3 mt-5 hover:bg-gray-800'

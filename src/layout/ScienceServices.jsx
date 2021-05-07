@@ -5,11 +5,12 @@ import Services from '../components/Services';
 import shroom from '../assets/images/Shrooms.jpg';
 import eye from '../assets/images/teary-eye.jpg';
 
-const ScienceSection = ({ topHeading }) => {
+const ScienceServies = () => {
   return (
     <>
-      <div className=''>
-        <h1 className='text-6xl mb-5'>{topHeading}</h1>
+      <div className='text-6xl mb-5 font-bold flex'>
+        <h1 className=''>Science</h1>
+        <h1 className='services'>Services</h1>
       </div>
 
       <section className='md:flex'>
@@ -26,7 +27,7 @@ const ScienceSection = ({ topHeading }) => {
             img={eye}
           />
         </aside>
-        <div className=' bg-red-200 w-2/3'>
+        <div className='w-2/3'>
           <Services />
         </div>
       </section>
@@ -34,4 +35,4 @@ const ScienceSection = ({ topHeading }) => {
   );
 };
 
-export default ScienceSection;
+export default ScienceServies;

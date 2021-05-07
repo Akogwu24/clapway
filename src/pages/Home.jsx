@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='container md:px-20 mx-auto'>
       <Header />
-      <ScienceSection topHeading='Science' />
+      <ScienceSection />
     </div>
   );
 };
