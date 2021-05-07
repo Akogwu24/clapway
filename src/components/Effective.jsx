@@ -16,7 +16,21 @@ import lovers from '../assets/images/lover.jpeg';
 
 const Effective = () => {
   const images = [writer, moneyMan, shroom, marijuana, cat];
+  const imagesText = [
+    'ESSAY WRITING SERVICE PRICE AND THE FACTORS THAT INFLUENCE IT',
+    'SUCCESSFUL CANNABIS BUSINESS IDEAS YOU CAN START IN 2021',
+    'WHY SCIENCE WANTS YOU TO TAKE SHROOMS— AND WANTS CANADA TO...',
+    'TIPS FOR CHOOSING YOUR HEMP CBD FLOWER STRAIN: SPECIAL SAUCE &...',
+    'WHAT YOU SHOULD KNOW ABOUT A BALINESE CAT',
+  ];
+
   const featuredImages = [trading, fraud, drink, lovers];
+  const featuredImagesText = [
+    'HOW TO FIND THE CRYPTO TRADING PLATFORM OF YOUR DREAMS',
+    '5 MOST COMMON CREDIT CARD SCAMS AND HOW TO PREVENT THEM',
+    'ONLINE SLOTS: ARE THEY WORTH IT?',
+    'THE EFFECTS OF DEPRESSION ON YOUR BODY',
+  ];
 
   return (
     <section className='md:flex justify-between  border-b-4 pb-20 border-gray-300'>
@@ -27,11 +41,11 @@ const Effective = () => {
         text='10 EFFECTIVE WAYS TO EXPAND YOUR SOCIAL MEDIA INFLUENCE'
       />
       <div>
-        {images.map((image) => (
+        {images.map((image, text) => (
           <SmallCard
             imgstyle='w-72'
             smallImg={image}
-            smallText='ESSAY WRITING SERVICE PRICE AND THE FACTORS THAT INFLUENCE IT'
+            smallText={imagesText[text]}
           />
         ))}
       </div>
@@ -39,11 +53,11 @@ const Effective = () => {
       <div>
         <h1 className=' mt-32 md:mt-auto text-5xl mb-16 font-bold'>Feature</h1>
 
-        {featuredImages.map((featuredImage) => (
+        {featuredImages.map((featuredImage, text) => (
           <SmallCard
             imgstyle='w-80'
             smallImg={featuredImage}
-            smallText='HOW TO FIND THE CRYPTO TRADING PLATFORM OF YOUR DREAMS'
+            smallText={featuredImagesText[text]}
           />
         ))}
       </div>
