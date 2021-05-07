@@ -9,7 +9,7 @@ import { IconContext } from 'react-icons';
 
 const Header = () => {
   const [click, setClick] = useState(false);
-  const [navDisplay, setNavDisplay] = useState();
+  const [navDisplay, setNavDisplay] = useState('hidden');
 
   const handleClick = () => {
     setClick(!click);
@@ -22,9 +22,9 @@ const Header = () => {
         <div className='flex justify-between my-10 md:justify-start'>
           <div onClick={handleClick}>
             {click ? (
-              <FaTimes className='md:hidden' />
-            ) : (
               <GiHamburgerMenu className='md:hidden' />
+            ) : (
+              <FaTimes className='md:hidden' />
             )}
           </div>
           <Logo className='mr-0' />
