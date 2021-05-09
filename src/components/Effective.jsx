@@ -41,8 +41,9 @@ const Effective = () => {
         text='10 EFFECTIVE WAYS TO EXPAND YOUR SOCIAL MEDIA INFLUENCE'
       />
       <div>
-        {images.map((image, text) => (
+        {images.map((image, text, index) => (
           <SmallCard
+            key={index}
             imgstyle='w-72'
             smallImg={image}
             smallText={imagesText[text]}

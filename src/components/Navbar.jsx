@@ -22,8 +22,8 @@ const Navbar = ({ navStyle }) => {
       </ul>
 
       <ul className='flex-col flex py-5 md:py-0 md:flex-row justify-between items-center md:w-2/5'>
-        {listItems.map((item) => (
-          <li className='middle py-5 md:py-0'>
+        {listItems.map((item, index) => (
+          <li key={index} className='middle py-5 md:py-0'>
             <a href='/'>{item}</a>
           </li>
         ))}
