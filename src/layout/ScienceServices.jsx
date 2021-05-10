@@ -7,7 +7,7 @@ import eye from '../assets/images/teary-eye.jpg';
 
 const ScienceServies = () => {
   return (
-    <section className='flex mb-20 pb-24 border-b-2'>
+    <section className='md:flex mb-20 pb-24 border-b-2'>
       <div className='max-w-lg '>
         <h1 className='text-6xl mb-5 font-bold'>Science</h1>
         <aside className=''>
