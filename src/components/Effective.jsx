@@ -33,7 +33,7 @@ const Effective = () => {
   ];
 
   return (
-    <section className='md:flex justify-between  border-b-4 pb-20 border-gray-300'>
+    <section className='md:flex justify-between  border-b-2 pb-20 border-gray-100'>
       <Card
         textStyles='text-5xl font-bold hover:text-red-500'
         className='container w-full md:w-3/5 md:ml-10 mx-auto mr-20 mb-12 md:mb-0'

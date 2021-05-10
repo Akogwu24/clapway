@@ -7,14 +7,10 @@ import eye from '../assets/images/teary-eye.jpg';
 
 const ScienceServies = () => {
   return (
-    <>
-      <div className='text-6xl mb-5 font-bold flex'>
-        <h1 className=''>Science</h1>
-        <h1 className='services'>Services</h1>
-      </div>
-
-      <section className='md:flex'>
-        <aside className='w-1/3'>
+    <section className='flex'>
+      <div className='max-w-lg '>
+        <h1 className='text-6xl mb-5 font-bold'>Science</h1>
+        <aside className=''>
           <ReadMoreCard
             header='Why Science Wants You to Take Shrooms— And Wants Canada to Legalize Them'
             brief='As anecdotal evidence continues to mount for the beneficial effect miscroding mushrooms ...'
@@ -27,11 +23,13 @@ const ScienceServies = () => {
             img={eye}
           />
         </aside>
-        <div className='w-2/3'>
-          <Services />
-        </div>
-      </section>
-    </>
+      </div>
+
+      <div className='w-2/3'>
+        <h1 className='text-6xl mb-11 font-bold'>Services</h1>
+        <Services />
+      </div>
+    </section>
   );
 };
 

@@ -9,6 +9,7 @@ import psy from '../assets/images/psy.jpg';
 
 const Services = () => {
   const cardComponents = [writer, exam, sitting, writer2, mobile, psy];
+
   const text = [
     'Essay Writing Service Price and the Factors That Influence It',
     'Why Essay Writing Can Help Students With Self-Knowledge',
