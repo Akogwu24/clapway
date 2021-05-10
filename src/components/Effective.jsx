@@ -54,8 +54,9 @@ const Effective = () => {
       <div>
         <h1 className=' mt-32 md:mt-auto text-5xl mb-16 font-bold'>Feature</h1>
 
-        {featuredImages.map((featuredImage, text) => (
+        {featuredImages.map((featuredImage, text, id) => (
           <SmallCard
+            key={id}
             imgstyle='w-80'
             smallImg={featuredImage}
             smallText={featuredImagesText[text]}

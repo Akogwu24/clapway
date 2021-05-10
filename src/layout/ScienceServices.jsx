@@ -25,7 +25,7 @@ const ScienceServies = () => {
         </aside>
       </div>
 
-      <div className='w-2/3'>
+      <div className=''>
         <h1 className='text-6xl mb-11 font-bold'>Services</h1>
         <Services />
       </div>

@@ -21,7 +21,7 @@ const Services = () => {
 
   return (
     <div className=''>
-      <main className='grid grid-cols-3 gap-6 w-full text-xl'>
+      <main className='grid grid-cols-3 gap-8 w-full text-xl'>
         {cardComponents.map((cardComponent, index) => (
           <Card
             img={cardComponent}
