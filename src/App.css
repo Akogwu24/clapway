@@ -45,3 +45,6 @@ li:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.image-text-container {
+  height: 350px;
+}

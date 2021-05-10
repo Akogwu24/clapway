@@ -20,7 +20,7 @@ const Services = () => {
   ];
 
   return (
-    <div className=''>
+    <div>
       <main className='grid grid-cols-3 gap-8 w-full text-xl'>
         {cardComponents.map((cardComponent, index) => (
           <Card
