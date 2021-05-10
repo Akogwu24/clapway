@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/github.io/clapway/static/css/main.9890cb1d.chunk.css",
+    "main.js": "/github.io/clapway/static/js/main.3d203aa8.chunk.js",
+    "main.js.map": "/github.io/clapway/static/js/main.3d203aa8.chunk.js.map",
+    "runtime-main.js": "/github.io/clapway/static/js/runtime-main.66c52f81.js",
+    "runtime-main.js.map": "/github.io/clapway/static/js/runtime-main.66c52f81.js.map",
+    "static/js/2.7f889db0.chunk.js": "/github.io/clapway/static/js/2.7f889db0.chunk.js",
+    "static/js/2.7f889db0.chunk.js.map": "/github.io/clapway/static/js/2.7f889db0.chunk.js.map",
+    "index.html": "/github.io/clapway/index.html",
+    "static/css/main.9890cb1d.chunk.css.map": "/github.io/clapway/static/css/main.9890cb1d.chunk.css.map",
+    "static/js/2.7f889db0.chunk.js.LICENSE.txt": "/github.io/clapway/static/js/2.7f889db0.chunk.js.LICENSE.txt",
+    "static/media/Exam.ff13d16c.jpg": "/github.io/clapway/static/media/Exam.ff13d16c.jpg",
+    "static/media/Fraud-Phone.b51c819e.jpg": "/github.io/clapway/static/media/Fraud-Phone.b51c819e.jpg",
+    "static/media/Marijuana.08cc294d.jpg": "/github.io/clapway/static/media/Marijuana.08cc294d.jpg",
+    "static/media/Mobile-Payment.80457d98.jpg": "/github.io/clapway/static/media/Mobile-Payment.80457d98.jpg",
+    "static/media/Money-man.bab2a4ba.jpg": "/github.io/clapway/static/media/Money-man.bab2a4ba.jpg",
+    "static/media/Shrooms.f5bd8a61.jpg": "/github.io/clapway/static/media/Shrooms.f5bd8a61.jpg",
+    "static/media/bulb.025003a6.jpg": "/github.io/clapway/static/media/bulb.025003a6.jpg",
+    "static/media/cat.bb577089.jpg": "/github.io/clapway/static/media/cat.bb577089.jpg",
+    "static/media/drink1.7fdba0f6.jpg": "/github.io/clapway/static/media/drink1.7fdba0f6.jpg",
+    "static/media/psy.745327b2.jpg": "/github.io/clapway/static/media/psy.745327b2.jpg",
+    "static/media/sitting.9799fceb.jpg": "/github.io/clapway/static/media/sitting.9799fceb.jpg",
+    "static/media/teary-eye.d9b7a17b.jpg": "/github.io/clapway/static/media/teary-eye.d9b7a17b.jpg",
+    "static/media/trading.0f04a62c.jpg": "/github.io/clapway/static/media/trading.0f04a62c.jpg",
+    "static/media/writer.b9e99231.jpg": "/github.io/clapway/static/media/writer.b9e99231.jpg",
+    "static/media/writer2.81a49d79.jpg": "/github.io/clapway/static/media/writer2.81a49d79.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66c52f81.js",
+    "static/js/2.7f889db0.chunk.js",
+    "static/css/main.9890cb1d.chunk.css",
+    "static/js/main.3d203aa8.chunk.js"
+  ]
+}
