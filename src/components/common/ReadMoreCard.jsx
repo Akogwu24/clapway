@@ -4,7 +4,7 @@ const ReadMoreCard = ({ header, brief, img }) => {
   return (
     <div className='mr-16 my-10'>
       <div className='mb-5'>
-        <h2 className='text-4xl font-bold'>{header}</h2>
+        <h2 className='hover:text-red-500 text-4xl font-bold'>{header}</h2>
       </div>
       <div className='flex justify-between'>
         <div className=''>
