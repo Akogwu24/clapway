@@ -8,9 +8,9 @@ import adidas from '../assets/images/adidas.jpeg';
 
 const Adult = () => {
   return (
-    <div className='w-1/3 bg-purple-400'>
+    <div className='w-1/3'>
       <h1 className='text-5xl font-bold italic mb-12 '>Adult</h1>
-      <div className='bg-green-700 w-full mb-14'>
+      <div className='hover:text-red-500 w-full mb-14'>
         <Card
           img={fraudster}
           text='5 Most Common Credit Card Scams and How to Prevent Them'

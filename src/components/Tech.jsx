@@ -8,9 +8,9 @@ import brain from '../assets/images/New-Tech2.jpg';
 
 const Tech = () => {
   return (
-    <div className='w-1/3 bg-red-400'>
+    <div className='w-1/3'>
       <h1 className='text-5xl font-bold italic mb-12 '>Tech</h1>
-      <div className='bg-green-700 w-full mb-14'>
+      <div className='hover:text-red-500 w-full mb-14'>
         <Card
           img={crypto}
           text='How to Find the Crypto Trading Platform of Your Dreams'

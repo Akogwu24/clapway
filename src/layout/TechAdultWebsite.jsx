@@ -5,7 +5,7 @@ import Adult from '../components/Adult';
 
 const TechAdultWebsite = () => {
   return (
-    <section className='md:flex justify-between mt-20 bg-blue-300'>
+    <section className='md:flex justify-between mt-20 gap-14'>
       <Tech />
       <Adult />
       <Website />
