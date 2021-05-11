@@ -4,6 +4,7 @@ import GamesCannbis from '../layout/GamesCannbis';
 import Header from '../layout/Header';
 import ScienceSection from '../layout/ScienceServices';
 import TechAdultWebsite from '../layout/TechAdultWebsite';
+import Brands from '../layout/Brands';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Crypto />
       <GamesCannbis />
       <TechAdultWebsite />
+      <Brands />
     </div>
   );
 };

@@ -7,7 +7,7 @@ const TechAdultWebsite = () => {
   return (
     <section
       className='md:flex justify-between border-t-2
-    pt-20 my-20 gap-14'
+    py-20 my-20 gap-14 border-b-2'
     >
       <Tech />
       <Adult />
