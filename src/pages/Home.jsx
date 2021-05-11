@@ -5,6 +5,7 @@ import Header from '../layout/Header';
 import ScienceSection from '../layout/ScienceServices';
 import TechAdultWebsite from '../layout/TechAdultWebsite';
 import Brands from '../layout/Brands';
+import Footer from '../layout/Footer';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <GamesCannbis />
       <TechAdultWebsite />
       <Brands />
+      <Footer />
     </div>
   );
 };

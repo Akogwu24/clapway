@@ -3,7 +3,7 @@ import jumpi from '../assets/images/Jumpi.jpg';
 
 const Brands = () => {
   return (
-    <section className='crypto py-18 pb-28 mb-20'>
+    <section className='crypto py-18 pb-20 '>
       <h1 className='text-6xl font-extrabold mb-20'>Brands</h1>
       <div className='image-text-container flex'>
         <div className='image-container h-full'>
