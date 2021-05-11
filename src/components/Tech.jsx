@@ -4,12 +4,13 @@ import Card from './common/Card';
 import SmallCard from './common/SmallCard';
 import crypto from '../assets/images/crypto-image2.jpg';
 import alien from '../assets/images/Alien.jpg';
+import brain from '../assets/images/New-Tech2.jpg';
 
 const Tech = () => {
   return (
     <div className='w-1/3 bg-red-400'>
       <h1 className='text-5xl font-bold italic mb-12 '>Tech</h1>
-      <div className='bg-green-700 w-full'>
+      <div className='bg-green-700 w-full mb-14'>
         <Card
           img={crypto}
           text='How to Find the Crypto Trading Platform of Your Dreams'
@@ -17,8 +18,12 @@ const Tech = () => {
           imgStyles='w-full'
         />
       </div>
-      <div>
+      <div className='pr-2'>
         <SmallCard smallImg={alien} smallText='4 Ways You Can Learn to Code' />
+        <SmallCard
+          smallImg={brain}
+          smallText='Best Platforms to Use When Preparing for Microsoft 70-764 Exam; Why...'
+        />
       </div>
     </div>
   );
