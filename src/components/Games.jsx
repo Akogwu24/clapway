@@ -5,7 +5,8 @@ import Card from '../components/common/Card';
 
 const Games = () => {
   return (
-    <div className='bg-blue-200'>
+    <div className=''>
+      <h1 className='text-5xl italic font-bold mb-12'>Games</h1>
       <Card
         img={drink}
         text='Online Slots: Are They Worth It?'

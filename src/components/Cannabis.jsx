@@ -22,7 +22,7 @@ const Cannabis = () => {
 
   const readMoreCardImages = [man2, farmer];
   const readMoreHead = [
-    'From the History of Roulette to the Age of Online Gaming',
+    'Successful Cannabis Business Ideas You Can Start in 2021',
     'Tips For Choosing Your Hemp CBD Flower Strain: Special Sauce & Others',
   ];
   const readMoreText = [
@@ -31,25 +31,33 @@ const Cannabis = () => {
   ];
 
   return (
-    <div className='flex bg-yellow-400'>
-      <div>
-        {smallCardImages.map((smallCardImage, index) => (
-          <SmallCardgitm
-            smallImg={smallCardImage}
-            smallText={smallCardText[index]}
-          />
-        ))}
+    <div className='flex'>
+      <div className=''>
+        <div className='mt-24'>
+          {smallCardImages.map((smallCardImage, index) => (
+            <SmallCard
+              smallImg={smallCardImage}
+              smallText={smallCardText[index]}
+              imgstyle='h-full'
+            />
+          ))}
+        </div>
       </div>
 
-      <div>
-        {readMoreCardImages.map((readMoreCardImage, index) => (
-          <ReadMoreCard
-            header={readMoreHead[index]}
-            brief={readMoreText[index]}
-            img={readMoreCardImage}
-            containerStyle='bg-red-200'
-          />
-        ))}
+      <div className='w-2/3'>
+        <h1 className='text-5xl italic font-bold mb-12'>Cannabis</h1>
+        <div>
+          {readMoreCardImages.map((readMoreCardImage, index) => (
+            <ReadMoreCard
+              header={readMoreHead[index]}
+              brief={readMoreText[index]}
+              img={readMoreCardImage}
+              containerStyle='pb-20'
+              textBtnContainer='ml-10 w-3/5 text-lg'
+              textStyle='text-xl'
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import Crypto from '../layout/Crypto';
 import GamesCannbis from '../layout/GamesCannbis';
 import Header from '../layout/Header';
 import ScienceSection from '../layout/ScienceServices';
+import TechAdultWebsite from '../layout/TechAdultWebsite';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <ScienceSection />
       <Crypto />
       <GamesCannbis />
+      <TechAdultWebsite />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import ReadMoreCard from '../components/common/ReadMoreCard';
 import Services from '../components/Services';
 
@@ -15,19 +16,23 @@ const ScienceServies = () => {
             header='Why Science Wants You to Take Shrooms— And Wants Canada to Legalize Them'
             brief='As anecdotal evidence continues to mount for the beneficial effect miscroding mushrooms ...'
             img={shroom}
-            containerStyle='mr-16 my-10'
+            textStyle='text-xl text-justify whitespace-normal'
+            containerStyle='mr-16 my-10 w-full'
+            textBtnContainer='ml-10 '
           />
           <ReadMoreCard
-            containerStyle='mr-16 my-10'
+            containerStyle='mr-16 my-10 w-full'
             header='3 Terrifying Events That Nobody Expects After the Coronavirus Pandemic Is Over'
             brief='
             If you have not been hiding under a rock, then you are likely familiar lorem lorem lorem orem with ...'
             img={eye}
+            textStyle='text-xl text-justify'
+            textBtnContainer='ml-10 '
           />
         </aside>
       </div>
 
-      <div className=''>
+      <div className='pl-20'>
         <h1 className='text-6xl mb-11 font-bold'>Services</h1>
         <Services />
       </div>
