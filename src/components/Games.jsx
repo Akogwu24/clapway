@@ -5,8 +5,13 @@ import Card from '../components/common/Card';
 
 const Games = () => {
   return (
-    <div>
-      <Card img={drink} />
+    <div className='bg-blue-200'>
+      <Card
+        img={drink}
+        text='Online Slots: Are They Worth It?'
+        imgStyles='h-full'
+        textStyles='text-5xl font-bold hover:text-red-500'
+      />
     </div>
   );
 };

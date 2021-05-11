@@ -24,6 +24,7 @@ const Services = () => {
       <main className='grid grid-cols-3 gap-8 w-full text-xl'>
         {cardComponents.map((cardComponent, index) => (
           <Card
+            key={index}
             img={cardComponent}
             text={text[index]}
             textStyles='text-2xl font-medium hover:text-red-500'

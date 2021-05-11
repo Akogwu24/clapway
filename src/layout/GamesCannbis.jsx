@@ -1,10 +1,12 @@
 import React from 'react';
+import Cannabis from '../components/Cannabis';
 import Games from '../components/Games';
 
 const GamesCannbis = () => {
   return (
-    <section>
+    <section className='flex justify-between'>
       <Games />
+      <Cannabis />
     </section>
   );
 };

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ReadMoreCard = ({ header, brief, img }) => {
+const ReadMoreCard = ({ header, brief, img, containerStyle }) => {
   return (
-    <div className='mr-16 my-10'>
+    <div className={containerStyle}>
       <div className='mb-5'>
         <h2 className='hover:text-red-500 text-4xl font-bold'>{header}</h2>
       </div>
