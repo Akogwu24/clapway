@@ -14,9 +14,9 @@ const ScienceServies = () => {
         <aside className=''>
           <ReadMoreCard
             header='Why Science Wants You to Take Shrooms— And Wants Canada to Legalize Them'
-            brief='As anecdotal evidence continues to mount for the beneficial effect miscroding mushrooms ...'
+            brief='As anecdotal evidence continues to mount for the beneficial effect miscrodin mushrooms ...'
             img={shroom}
-            textStyle='text-xl text-justify whitespace-normal'
+            textStyle='text-gray-500 text-xl text-justify tracking-tight'
             containerStyle='mr-16 my-10 w-full'
             textBtnContainer='ml-10 '
           />
@@ -26,7 +26,7 @@ const ScienceServies = () => {
             brief='
             If you have not been hiding under a rock, then you are likely familiar lorem lorem lorem orem with ...'
             img={eye}
-            textStyle='text-xl text-justify'
+            textStyle='text-xl text-justify text-gray-500'
             textBtnContainer='ml-10 '
           />
         </aside>

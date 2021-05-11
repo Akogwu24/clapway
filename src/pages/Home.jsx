@@ -7,7 +7,7 @@ import TechAdultWebsite from '../layout/TechAdultWebsite';
 
 const Home = () => {
   return (
-    <div className='container md:px-20 mx-auto'>
+    <div className='container mx-auto'>
       <Header />
       <ScienceSection />
       <Crypto />

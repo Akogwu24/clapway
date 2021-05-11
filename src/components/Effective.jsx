@@ -40,7 +40,7 @@ const Effective = () => {
         img={bulb}
         text='10 EFFECTIVE WAYS TO EXPAND YOUR SOCIAL MEDIA INFLUENCE'
       />
-      <div>
+      <div className='font-medium '>
         {images.map((image, text, index) => (
           <SmallCard
             key={index}
@@ -51,7 +51,7 @@ const Effective = () => {
         ))}
       </div>
 
-      <div>
+      <div className='ml-10 font-semibold'>
         <h1 className=' mt-32 md:mt-auto text-5xl mb-16 font-bold'>Feature</h1>
 
         {featuredImages.map((featuredImage, text, id) => (
