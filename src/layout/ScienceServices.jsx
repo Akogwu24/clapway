@@ -9,7 +9,7 @@ import eye from '../assets/images/teary-eye.jpg';
 const ScienceServies = () => {
   return (
     <section className='md:flex mb-20 pb-24 border-b-2'>
-      <div className='max-w-lg '>
+      <div className='max-w-lg px-5'>
         <h1 className='text-6xl mb-5 font-bold'>Science</h1>
         <aside className=''>
           <ReadMoreCard
@@ -32,7 +32,7 @@ const ScienceServies = () => {
         </aside>
       </div>
 
-      <div className='pl-20'>
+      <div className='pl-3'>
         <h1 className='text-6xl mb-11 font-bold'>Services</h1>
         <Services />
       </div>

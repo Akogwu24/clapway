@@ -20,14 +20,17 @@ const Services = () => {
   ];
 
   return (
-    <div>
-      <main className='grid grid-cols-3 gap-8 w-full text-xl'>
+    <div className='services-container'>
+      <main className='md:grid grid-cols-3 gap-8 w-full text-xl'>
         {cardComponents.map((cardComponent, index) => (
           <Card
             key={index}
             img={cardComponent}
             text={text[index]}
             textStyles='text-2xl font-medium hover:text-red-500'
+            className='flex justify-between gap-10'
+            imgStyles=''
+            imageContainer='mb-10'
           />
         ))}
       </main>

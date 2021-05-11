@@ -31,7 +31,7 @@ const Cannabis = () => {
   ];
 
   return (
-    <div className='flex'>
+    <div className='md:flex'>
       <div className=''>
         <div className='mt-24 mx-16'>
           {smallCardImages.map((smallCardImage, index) => (

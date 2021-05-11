@@ -1,9 +1,16 @@
 import React from 'react';
 
-const Card = ({ img, text, className, textStyles, imgStyles }) => {
+const Card = ({
+  img,
+  text,
+  className,
+  textStyles,
+  imgStyles,
+  imageContainer,
+}) => {
   return (
     <section className={className}>
-      <div className='mb-5'>
+      <div className={imageContainer}>
         <img src={img} alt='bulb' className={imgStyles} />
       </div>
       <div>

@@ -21,7 +21,7 @@ const Navbar = ({ navStyle }) => {
         </li>
       </ul>
 
-      <ul className='flex-col flex py-5 md:py-0 md:flex-row justify-between items-center md:w-2/5'>
+      <ul className='flex-col flex py-5 md:py-0 md:flex-row justify-between items-center  md:w-2/5 '>
         {listItems.map((item, index) => (
           <li key={index} className='middle py-5 md:py-0'>
             <a href='/'>{item}</a>
@@ -42,8 +42,8 @@ const Navbar = ({ navStyle }) => {
           <a href='/'>ADULT</a>
         </li>
       </ul>
-      <ul className='mt-7 md:mt-0'>
-        <a href='/' className=' md:mr-40'>
+      <ul className='absolute -bottom-5 left-12 lg:static  mt-7 md:mt-0 '>
+        <a href='/' className=' md:mr-40 '>
           FFEATURED
         </a>
       </ul>

@@ -10,7 +10,7 @@ import marijuana from '../assets/images/Marijuana.jpg';
 import cat from '../assets/images/cat.jpg';
 import trading from '../assets/images/trading.jpg';
 import fraud from '../assets/images/Fraud-Phone.jpg';
-import drink from '../assets/images/drink1.jpg';
+import drink from '../assets/images/new-drink.jpg';
 
 import lovers from '../assets/images/lover.jpeg';
 
@@ -51,8 +51,10 @@ const Effective = () => {
         ))}
       </div>
 
-      <div className='ml-10 font-semibold'>
-        <h1 className=' mt-32 md:mt-auto text-5xl mb-16 font-bold'>Feature</h1>
+      <div className='md:ml-10 font-semibold'>
+        <h1 className='ml-8 mt-32 md:mt-auto text-5xl mb-16 font-bold'>
+          Feature
+        </h1>
 
         {featuredImages.map((featuredImage, text, id) => (
           <SmallCard

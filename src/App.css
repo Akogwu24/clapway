@@ -48,3 +48,10 @@ li:hover {
 .image-text-container {
   height: 350px;
 }
+@media (max-width: 450px) {
+  .services-container img {
+    height: 100px;
+    width: 300px;
+    object-fit: cover;
+  }
+}
