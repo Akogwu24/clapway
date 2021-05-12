@@ -11,40 +11,40 @@ const Navbar = ({ navStyle }) => {
     <nav className={navStyle}>
       <ul className='dropdown '>
         <li className='dropbtn flex items-center'>
-          <Link href='/'>ALL</Link>
+          <Link to='/'>ALL</Link>
           <FiChevronDown color='white font-bold ml-2' />
         </li>
         <li className='dropdown-content text-black shadow-md'>
-          <Link href='/'>NEWS</Link>
-          <Link href='/'>TIPS</Link>
-          <Link href='/'>TOP LISTS</Link>
-          <Link href='/'>REVIEWS</Link>
+          <Link to='/'>NEWS</Link>
+          <Link to='/'>TIPS</Link>
+          <Link to='/'>TOP LISTS</Link>
+          <Link to='/'>REVIEWS</Link>
         </li>
       </ul>
 
       <ul className='flex-col flex py-5 md:py-0 md:flex-row justify-between items-center  md:w-2/5 '>
         {listItems.map((item, index) => (
           <li key={index} className='middle py-5 md:py-0'>
-            <Link href='/'>{item}</Link>
+            <Link to='/'>{item}</Link>
           </li>
         ))}
       </ul>
 
       <ul className='dropdown flex'>
         <li className='dropbtn flex items-center'>
-          <Link href='/'>OTHER</Link>
+          <Link to='/'>OTHER</Link>
           <FiChevronDown className='ml-2' />
         </li>
         <li className='dropdown-content text-black shadow-md'>
-          <Link href='/'>WEBSITE</Link>
-          <Link href='/'>BRAND</Link>
-          <Link href='/'>TECH</Link>
-          <Link href='/'>SOCILA</Link>
-          <Link href='/'>ADULT</Link>
+          <Link to='/'>WEBSITE</Link>
+          <Link to='/'>BRAND</Link>
+          <Link to='/'>TECH</Link>
+          <Link to='/'>SOCILA</Link>
+          <Link to='/'>ADULT</Link>
         </li>
       </ul>
       <ul className='absolute md:-bottom-5 md:left-12 lg:static  mt-7 md:mt-0 '>
-        <Link href='/' className='ml-40 '>
+        <Link to='/' className='ml-40 '>
           FFEATURED
         </Link>
       </ul>
