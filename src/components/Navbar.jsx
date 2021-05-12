@@ -2,6 +2,7 @@ import React from 'react';
 
 import { FiChevronDown } from 'react-icons/fi';
 import { HiOutlineSearch } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ navStyle }) => {
   const listItems = ['SCIENCE', 'CRYPTO', 'GAMES', 'CANNABIS', 'SERVICES'];
@@ -10,42 +11,42 @@ const Navbar = ({ navStyle }) => {
     <nav className={navStyle}>
       <ul className='dropdown '>
         <li className='dropbtn flex items-center'>
-          <a href='/'>ALL</a>
+          <Link href='/'>ALL</Link>
           <FiChevronDown color='white font-bold ml-2' />
         </li>
         <li className='dropdown-content text-black shadow-md'>
-          <a href='/'>NEWS</a>
-          <a href='/'>TIPS</a>
-          <a href='/'>TOP LISTS</a>
-          <a href='/'>REVIEWS</a>
+          <Link href='/'>NEWS</Link>
+          <Link href='/'>TIPS</Link>
+          <Link href='/'>TOP LISTS</Link>
+          <Link href='/'>REVIEWS</Link>
         </li>
       </ul>
 
       <ul className='flex-col flex py-5 md:py-0 md:flex-row justify-between items-center  md:w-2/5 '>
         {listItems.map((item, index) => (
           <li key={index} className='middle py-5 md:py-0'>
-            <a href='/'>{item}</a>
+            <Link href='/'>{item}</Link>
           </li>
         ))}
       </ul>
 
       <ul className='dropdown flex'>
         <li className='dropbtn flex items-center'>
-          <a href='/'>OTHER</a>
+          <Link href='/'>OTHER</Link>
           <FiChevronDown className='ml-2' />
         </li>
         <li className='dropdown-content text-black shadow-md'>
-          <a href='/'>WEBSITE</a>
-          <a href='/'>BRAND</a>
-          <a href='/'>TECH</a>
-          <a href='/'>SOCILA</a>
-          <a href='/'>ADULT</a>
+          <Link href='/'>WEBSITE</Link>
+          <Link href='/'>BRAND</Link>
+          <Link href='/'>TECH</Link>
+          <Link href='/'>SOCILA</Link>
+          <Link href='/'>ADULT</Link>
         </li>
       </ul>
       <ul className='absolute md:-bottom-5 md:left-12 lg:static  mt-7 md:mt-0 '>
-        <a href='/' className='ml-40 '>
+        <Link href='/' className='ml-40 '>
           FFEATURED
-        </a>
+        </Link>
       </ul>
       <HiOutlineSearch className='ml-40 hidden md:block' />
     </nav>
