@@ -31,11 +31,10 @@ const Header = () => {
           <ImSearch className='md:hidden' />
         </div>
       </IconContext.Provider>
-
       <Navbar
         navStyle={
           navDisplay
-            ? 'absolute h-24 z-10 lg:h-4/5 w-1/2 md:w-full md:h-auto md:relative md:flex justify-around items-center font-bold bg-black text-white mb-24 text-center md:text-auto'
+            ? 'absolute z-10 h-4/5 w-1/2 md:w-full md:h-auto md:relative md:flex justify-around items-center font-bold bg-black text-white mb-24 text-center md:text-auto'
             : 'hidden'
         }
       />

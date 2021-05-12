@@ -42,8 +42,8 @@ const Navbar = ({ navStyle }) => {
           <a href='/'>ADULT</a>
         </li>
       </ul>
-      <ul className='absolute -bottom-5 left-12 lg:static  mt-7 md:mt-0 '>
-        <a href='/' className=' md:mr-40 '>
+      <ul className='absolute md:-bottom-5 md:left-12 lg:static  mt-7 md:mt-0 '>
+        <a href='/' className='ml-40 '>
           FFEATURED
         </a>
       </ul>
