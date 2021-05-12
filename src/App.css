@@ -45,13 +45,24 @@ li:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.image-text-container {
-  height: 350px;
+
+@media (min-width: 450px) {
+  .image-text-container {
+    height: 350px;
+  }
 }
+
 @media (max-width: 450px) {
   .services-container img {
     height: 100px;
     width: 300px;
     object-fit: cover;
+  }
+}
+
+@media (max-width: 450px) {
+  .tech-small-card img {
+    width: 200px;
+    height: 100px;
   }
 }

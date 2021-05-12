@@ -33,7 +33,7 @@ const Cannabis = () => {
   return (
     <div className='md:flex'>
       <div className=''>
-        <div className='mt-24 mx-16'>
+        <div className='mt-24 md:mx-16'>
           {smallCardImages.map((smallCardImage, index) => (
             <SmallCard
               smallImg={smallCardImage}
@@ -44,7 +44,7 @@ const Cannabis = () => {
         </div>
       </div>
 
-      <div className='w-2/3'>
+      <div className='md:w-2/3'>
         <h1 className='text-5xl italic font-bold mb-12'>Cannabis</h1>
         <div>
           {readMoreCardImages.map((readMoreCardImage, index) => (

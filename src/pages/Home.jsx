@@ -9,7 +9,7 @@ import Footer from '../layout/Footer';
 
 const Home = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container px-20 mx-auto'>
       <Header />
       <ScienceSection />
       <Crypto />

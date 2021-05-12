@@ -5,7 +5,7 @@ import bull from '../assets/images/Money-man2.jpg';
 
 const Website = () => {
   return (
-    <div className='w-1/3'>
+    <div className='px-2 md:w-1/3'>
       <h1 className='text-5xl font-bold italic mb-12'>Website</h1>
       <div>
         <ReadMoreCard

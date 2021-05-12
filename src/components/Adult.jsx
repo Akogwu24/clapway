@@ -8,13 +8,13 @@ import adidas from '../assets/images/adidas.jpeg';
 
 const Adult = () => {
   return (
-    <div className='w-1/3'>
+    <div className='md:w-1/3'>
       <h1 className='text-5xl font-bold italic mb-12 '>Adult</h1>
       <div className='hover:text-red-500 w-full mb-14'>
         <Card
           img={fraudster}
           text='5 Most Common Credit Card Scams and How to Prevent Them'
-          textStyles='text-3xl'
+          textStyles='text-4xl md:text-3xl'
           imgStyles='w-full'
         />
       </div>

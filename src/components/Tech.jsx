@@ -8,17 +8,17 @@ import brain from '../assets/images/New-Tech2.jpg';
 
 const Tech = () => {
   return (
-    <div className='w-1/3'>
+    <div className='md:w-1/3'>
       <h1 className='text-5xl font-bold italic mb-12 '>Tech</h1>
       <div className='hover:text-red-500 w-full mb-14'>
         <Card
           img={crypto}
           text='How to Find the Crypto Trading Platform of Your Dreams'
-          textStyles='text-3xl'
+          textStyles='text-4xl'
           imgStyles='w-full'
         />
       </div>
-      <div className='pr-2'>
+      <div className='tech-small-card pr-2'>
         <SmallCard smallImg={alien} smallText='4 Ways You Can Learn to Code' />
         <SmallCard
           smallImg={brain}
