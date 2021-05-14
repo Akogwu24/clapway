@@ -29,7 +29,7 @@ const Services = () => {
             text={text[index]}
             textStyles='text-2xl font-medium hover:text-red-500'
             className='flex md:flex-col justify-between gap-10 md:gap-0'
-            imgStyles=''
+            imgStyles='w-full'
             imageContainer='bg-blue-700 mb-10'
           />
         ))}

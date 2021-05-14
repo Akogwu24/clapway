@@ -5,8 +5,6 @@ import { HiOutlineSearch } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 
 const Navbar = ({ navStyle }) => {
-  const listItems = ['SCIENCE', 'CRYPTO', 'GAMES', 'CANNABIS', 'SERVICES'];
-
   return (
     <nav className={navStyle}>
       <ul className='dropdown '>
@@ -23,11 +21,21 @@ const Navbar = ({ navStyle }) => {
       </ul>
 
       <ul className='flex-col flex py-5 md:py-0 md:flex-row justify-between items-center  md:w-2/5 '>
-        {listItems.map((item, index) => (
-          <li key={index} className='middle py-5 md:py-0'>
-            <Link to='/'>{item}</Link>
-          </li>
-        ))}
+        <li>
+          <Link to='/science'>SCIENCE</Link>
+        </li>
+        <li>
+          <Link to='/crypto'>CRYPTO</Link>
+        </li>
+        <li>
+          <Link to='/games'>GAMES</Link>
+        </li>
+        <li>
+          <Link to='/cannabis'>CANNABIS</Link>
+        </li>
+        <li>
+          <Link to='/services'>SERVICES</Link>
+        </li>
       </ul>
 
       <ul className='dropdown flex'>
@@ -44,7 +52,7 @@ const Navbar = ({ navStyle }) => {
         </li>
       </ul>
       <ul className='absolute md:-bottom-5 md:left-12 lg:static  mt-7 md:mt-0 '>
-        <Link to='/' className='ml-40 '>
+        <Link to='/featured' className='ml-40 '>
           FFEATURED
         </Link>
       </ul>
