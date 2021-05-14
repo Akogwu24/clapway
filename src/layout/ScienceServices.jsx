@@ -11,7 +11,7 @@ const ScienceServies = () => {
     <section className='md:flex mb-20 pb-24 border-b-2'>
       <div className='max-w-lg px-5'>
         <h1 className='text-6xl mb-5 font-bold'>Science</h1>
-        <aside className=''>
+        <aside>
           <ReadMoreCard
             header='Why Science Wants You to Take Shrooms— And Wants Canada to Legalize Them'
             brief='As anecdotal evidence continues to mount for the beneficial effect miscrodin mushrooms ...'
