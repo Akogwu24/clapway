@@ -23,6 +23,7 @@ const Effective = () => {
     'TIPS FOR CHOOSING YOUR HEMP CBD FLOWER STRAIN: SPECIAL SAUCE &...',
     'WHAT YOU SHOULD KNOW ABOUT A BALINESE CAT',
   ];
+  const imageKeys = [921, 922, 923, 924, 925];
 
   const featuredImages = [trading, fraud, drink, lovers];
   const featuredImagesText = [
@@ -31,22 +32,23 @@ const Effective = () => {
     'ONLINE SLOTS: ARE THEY WORTH IT?',
     'THE EFFECTS OF DEPRESSION ON YOUR BODY',
   ];
+  const featuredImageKeys = ['131', '132', '133', '134'];
 
   return (
     <section className='md:flex justify-between  border-b-2 pb-20 border-gray-100'>
       <Card
-        textStyles='text-5xl font-bold hover:text-red-500'
+        textStyles=' text-2xl md:text-5xl font-bold hover:text-red-500'
         className='container w-full md:w-3/5 md:ml-10 mx-auto mr-20 mb-12 md:mb-0'
         img={bulb}
         text='10 EFFECTIVE WAYS TO EXPAND YOUR SOCIAL MEDIA INFLUENCE'
       />
       <div className='font-medium '>
-        {images.map((image, text, index) => (
+        {images?.map((image, i) => (
           <SmallCard
-            key={index}
+            key={imageKeys[i]}
             imgstyle='w-72'
             smallImg={image}
-            smallText={imagesText[text]}
+            smallText={imagesText[i]}
           />
         ))}
       </div>
@@ -56,12 +58,12 @@ const Effective = () => {
           Feature
         </h1>
 
-        {featuredImages.map((featuredImage, text, id) => (
+        {featuredImages?.map((featuredImage, id) => (
           <SmallCard
-            key={id}
+            key={featuredImageKeys[id]}
             imgstyle='w-80'
             smallImg={featuredImage}
-            smallText={featuredImagesText[text]}
+            smallText={featuredImagesText[id]}
           />
         ))}
       </div>

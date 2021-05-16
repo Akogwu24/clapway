@@ -19,6 +19,7 @@ const Cannabis = () => {
     'The Most Popular Video Games Students Play',
     'From the History of Roulette to the Age of Online Gaming',
   ];
+  const smallCardKeys = [501, 601, 701, 801, 901];
 
   const readMoreCardImages = [man2, farmer];
   const readMoreHead = [
@@ -29,13 +30,15 @@ const Cannabis = () => {
     'The best way to shake off the Covid blues could be found in starting your...',
     'When you finally decide to give CBD flowers a chance and start smoking them, you...',
   ];
+  const readMoreKeys = [100, 101];
 
   return (
     <div className='md:flex'>
       <div className=''>
         <div className='mt-24 md:mx-16'>
-          {smallCardImages.map((smallCardImage, index) => (
+          {smallCardImages?.map((smallCardImage, index) => (
             <SmallCard
+              key={smallCardKeys[index]}
               smallImg={smallCardImage}
               smallText={smallCardText[index]}
               imgstyle='h-full'
@@ -47,8 +50,9 @@ const Cannabis = () => {
       <div className='md:w-2/3'>
         <h1 className='text-5xl italic font-bold mb-12'>Cannabis</h1>
         <div>
-          {readMoreCardImages.map((readMoreCardImage, index) => (
+          {readMoreCardImages?.map((readMoreCardImage, index) => (
             <ReadMoreCard
+              key={readMoreKeys[index]}
               header={readMoreHead[index]}
               brief={readMoreText[index]}
               img={readMoreCardImage}

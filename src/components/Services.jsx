@@ -22,11 +22,11 @@ const Services = () => {
   return (
     <div className='services-container h-full'>
       <main className='md:grid grid-cols-3 gap-8 w-full text-xl'>
-        {cardComponents.map((cardComponent, index) => (
+        {cardComponents?.map((cardComponent, tag) => (
           <Card
-            key={index}
+            key={tag}
             img={cardComponent}
-            text={text[index]}
+            text={text[tag]}
             textStyles='text-2xl font-medium hover:text-red-500'
             className='flex md:flex-col justify-between gap-10 md:gap-0'
             imgStyles='w-full'

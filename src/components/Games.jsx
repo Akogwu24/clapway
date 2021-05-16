@@ -6,12 +6,12 @@ import Card from '../components/common/Card';
 const Games = () => {
   return (
     <div className=''>
-      <h1 className='text-5xl italic font-bold mb-12'>Games</h1>
+      <h1 className='text-2xl md:text-5xl italic font-bold mb-12'>Games</h1>
       <Card
         img={drink}
         text='Online Slots: Are They Worth It?'
         imgStyles='h-full'
-        textStyles='text-5xl font-bold hover:text-red-500'
+        textStyles='text-3xl md:text-5xl font-bold hover:text-red-500'
       />
     </div>
   );

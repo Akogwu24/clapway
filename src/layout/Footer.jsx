@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <section className='p-3 px-16 text-white bg-gray-900 flex justify-between text-lg'>
-      <samll>&copy; All Rights Reserved - clapway.com</samll>
+      <p>&copy; All Rights Reserved - clapway.com</p>
       <ul className=''>
         <Link to='/' className=' hover:text-red-500 mr-8'>
           Home
