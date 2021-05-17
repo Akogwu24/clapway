@@ -20,7 +20,7 @@ const Navbar = ({ navStyle }) => {
         </li>
       </ul>
 
-      <ul className='flex-col flex py-5 md:py-0 md:flex-row justify-between items-center  md:w-2/5 '>
+      <ul className='middle-links flex-col flex py-5 md:flex-row justify-between items-center'>
         <li>
           <Link to='/science'>SCIENCE</Link>
         </li>
@@ -51,8 +51,8 @@ const Navbar = ({ navStyle }) => {
           <Link to='/'>ADULT</Link>
         </li>
       </ul>
-      <ul className='absolute md:-bottom-5 md:left-12 lg:static  mt-7 md:mt-0 '>
-        <Link to='/featured' className='ml-40 '>
+      <ul className='absolute w-full  md:-bottom-1 md:w-full md:text-left lg:w-1/4 lg:static  mt-7 md:mt-0 '>
+        <Link to='/featured' className='md:ml-10 '>
           FFEATURED
         </Link>
       </ul>

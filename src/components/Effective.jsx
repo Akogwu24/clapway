@@ -35,12 +35,14 @@ const Effective = () => {
   const featuredImageKeys = ['131', '132', '133', '134'];
 
   return (
-    <section className='md:flex justify-between  border-b-2 pb-20 border-gray-100'>
+    <section className='md:flex justify-between  border-b-2 gap-10 pb-20 border-gray-100'>
       <Card
-        textStyles=' text-2xl md:text-5xl font-bold hover:text-red-500'
-        className='container w-full md:w-3/5 md:ml-10 mx-auto mr-20 mb-12 md:mb-0'
+        textStyles=' text-2xl md:text-3xl lg:5xl font-bold hover:text-red-500'
+        className='w-full mb-12 md:mb-0'
         img={bulb}
         text='10 EFFECTIVE WAYS TO EXPAND YOUR SOCIAL MEDIA INFLUENCE'
+        imageContainer='w-full'
+        imgStyles='w-full'
       />
       <div className='font-medium '>
         {images?.map((image, i) => (
@@ -53,7 +55,7 @@ const Effective = () => {
         ))}
       </div>
 
-      <div className='md:ml-10 font-semibold'>
+      <div className=' font-semibold'>
         <h1 className='ml-8 mt-32 md:mt-auto text-5xl mb-16 font-bold'>
           Feature
         </h1>

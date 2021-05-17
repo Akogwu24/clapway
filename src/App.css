@@ -45,6 +45,9 @@ li:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.middle-links li {
+  padding: 10px 0;
+}
 
 @media (min-width: 450px) {
   .image-text-container {
@@ -64,5 +67,10 @@ li:hover {
   .tech-small-card img {
     width: 200px;
     height: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .middle-links li {
+    margin: 0 6px;
   }
 }

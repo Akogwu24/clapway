@@ -20,17 +20,17 @@ const Services = () => {
   ];
 
   return (
-    <div className='services-container h-full'>
+    <div className='services-container h-full md:h-auto'>
       <main className='md:grid grid-cols-3 gap-8 w-full text-xl'>
         {cardComponents?.map((cardComponent, tag) => (
           <Card
             key={tag}
             img={cardComponent}
             text={text[tag]}
-            textStyles='text-2xl font-medium hover:text-red-500'
-            className='flex md:flex-col justify-between gap-10 md:gap-0'
+            textStyles='align-start text-2xl font-medium hover:text-red-500'
+            className='flex justify-between md:flex-col md:justify-start justify- gap-10 md:gap-0'
             imgStyles='w-full'
-            imageContainer='bg-blue-700 mb-10'
+            imageContainer='mb-10 md:0'
           />
         ))}
       </main>
